@@ -1,0 +1,192 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: wheat;
+    color: #333333;
+    padding: 20px;
+}
+
+h1, h2, h3,h4 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Paragraph styling*/
+p{
+    color: #59e73c;
+}
+/* Form Styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="date"], 
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgb(59, 18, 194);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #3498db;
+    color: rgb(26, 18, 87);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+td a {
+    color: #e74c3c;
+}
+
+td a:hover {
+    color: #c0392b;
+}
+
+tbody tr:hover {
+    background-color: #f4f4f4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    form, table {
+        width: 90%;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    button[type="submit"] {
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    form, table {
+        width: 100%;
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    button[type="submit"] {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Links Section */
+section div a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: rgb(89, 51, 60);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+section div a:hover {
+    background-color: #2980b9;
+}
+
+/* Text Alignment and Margin for Forms */
+form div {
+    text-align: left;
+}
+
+p {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,14 @@
+element selector
+p{
+    color: red;
+}
+
+id selector
+#p_semantic{
+    color: aqua;
+}
+
+class selector
+.examples{
+    color: bisque;
+}
