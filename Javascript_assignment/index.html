@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Demo</title>
+    <style>
+        #result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+        .highlight {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head_1">JavaScript Functions and DOM Manipulation</h1>
+
+    <!-- Input fields for user interaction -->
+    <div>
+        <label for="num1">Number 1: </label>
+        <input type="number" id="num1" />
+    </div>
+    <div>
+        <label for="num2">Number 2: </label>
+        <input type="number" id="num2" />
+    </div>
+    
+    <!-- Buttons to trigger arithmetic operations -->
+    <div>
+        <button onclick="changeColour(this)" id="addBtn">Add</button>
+        <button id="subtractBtn">Subtract</button>
+        <button id="multiplyBtn">Multiply</button>
+        <button id="divideBtn">Divide</button>
+    </div>
+
+    <!-- Area to display result -->
+    <div id="result" class="hidden"></div>
+
+    <!-- Toggleable message -->
+    <div>
+        <button id="toggleMessageBtn">Toggle Message</button>
+        <p id="message" class="hidden">Hello! I am now visible.</p>
+    </div>
+
+    <!-- Chart.js Canvas for Rendering the Chart -->
+    <div>
+        <h2>My Chart</h2>
+        <canvas id="myChart" width="100" height="50"></canvas>
+    </div>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Link the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

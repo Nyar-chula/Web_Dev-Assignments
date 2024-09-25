@@ -23,11 +23,16 @@
         </header>
     </body>
     <main>
-        <h2>understanding semantic html</h2>
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+        
+        <h2 onclick="changeColour(this)">understanding semantic html</h2>
         <p id="p_semantic">semantic html elements provide meaning to the content they enclose</p>
+        <p onclick="changeColour(this)";>testing out events on js.</p>
         <section>
             <h3>Benefits
-                <p>improves readability of your code</p>
+                <p id="p_benefits">improves readability of your code</p>
             </h3>
         </section>
         <section class="examples">
@@ -50,4 +55,8 @@
     <footer>
         <p>&copy;mywebsite.All rights reserved.</p>
     </footer>
+    <script src=".js"></script>  
+<script>
+    ///javascript code as part of html or option on ln 53
+</script>
 </html>
